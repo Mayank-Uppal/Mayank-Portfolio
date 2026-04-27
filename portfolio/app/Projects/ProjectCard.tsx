@@ -7,7 +7,7 @@ interface projectProp{
         image:string,
         projectName1:string,
         projectName2:string,
-        projectDesc:string[],
+        projectDesc:string,
         tech:string[]
     }[],
     index:number
