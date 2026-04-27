@@ -3,8 +3,8 @@ import { useState } from "react"
 
 interface buttonProp{
     buttonText:String ,
-    handleClick:()=>void | null,
-    image:String | null
+    handleClick?:()=>void | null,
+    image?:String | null
 }
 
 export default function ButtonComponent({buttonText,handleClick,image}:buttonProp){

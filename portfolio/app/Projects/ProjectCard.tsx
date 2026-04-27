@@ -25,8 +25,8 @@ export default function ProjectCard({Project,index}:projectProp){
                     {/* <p  className= "md:mb-7 max-w-4xl font-normal font-outfit text-white/50 text-body text-lg">{p.projectDesc}</p> */}
                 </div>
                 <div className="flex gap-7 items-center justify-center flex-row ">
-                    <ButtonComponent buttonText="Live"/>
-                    <ButtonComponent buttonText="Code"/>
+                    <ButtonComponent image={null} buttonText="Live"/>
+                    <ButtonComponent image={null} buttonText="Code"/>
                 </div>
             </div>
         </div>
