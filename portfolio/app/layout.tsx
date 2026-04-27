@@ -63,7 +63,7 @@ export default function RootLayout({
     
       <body className="min-h-full flex flex-col overflow-x-hidden">
         <div className="z-30">
-            <NavbarComponent/>
+            {/* <NavbarComponent/> */}
         </div>
       <BackgroundRippleEffect/>
         {children}</body>
