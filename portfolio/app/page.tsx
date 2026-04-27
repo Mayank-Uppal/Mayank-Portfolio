@@ -11,7 +11,7 @@ export default function Home() {
     <>
     {/* <BackgroundRippleEffectDemo/> */}
     <HomeComponent/>
-   <ProjectComponent />
+   {/* <ProjectComponent /> */}
     <SkillComponent />
    <ExperienceComponent />
     <ContactComponent />
