@@ -8,12 +8,11 @@ interface projectProp{
         projectName1:string,
         projectName2:string,
         projectDesc:string,
-        tech:string[]
+        tech:string
     }[],
-    index?:number
 }
 
-export default function ProjectCard({Project,index}:projectProp){
+export default function ProjectCard({Project}:projectProp){
     return(
         <>
         {Project.map((p,index)=>(
