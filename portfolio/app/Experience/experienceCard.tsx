@@ -22,7 +22,7 @@ export default function ExperienceCard({experience}:experienceProp){
 
             <div className="text-center">
                 <h1 className="text-xl font-outfit font-extrabold text-white ">{exp.company}</h1>
-                <h1 className="text-lg font-bold font-outfit text-white/60 ">{exp.role}</h1>
+                <h1 className="text-lg font-outfit text-white/60 ">{exp.role}</h1>
             </div>
             
 

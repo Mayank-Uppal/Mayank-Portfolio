@@ -4,7 +4,7 @@ export default function FooterComponent(){
     return(
         <>
         <div className="flex flex-col justify-center items-center mx-auto px-10 pt-10 md:px-20 gap-4 w-full border-t my-10 md:mt-30">
-            <h1 className="text-lg text-center md:text-xl font-syne scale-y-140 font-extrabold text-rose-500">MAYANK UPPAL - PORTFOLIO</h1>
+            <h1 className="text-md text-center md:text-2xl font-syne scale-y-140 font-extrabold text-rose-500">MAYANK UPPAL</h1>
 
             <div className="flex flex-row justify-center items-center gap-4">
                 <Link href="/#HOME" className="text-sm md:text-lg font-outfit" >Home</Link>

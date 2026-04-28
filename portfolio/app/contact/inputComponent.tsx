@@ -13,7 +13,7 @@ export default function InputComponent(){
             <input type="text" className=" w-full rounded-lg  hover:border-rose-500/50 focus:border-rose-500/50 p-10 font-outfit  border bg-white/4 backdrop-blur-3xl" placeholder="Message"></input>
 
             <div className="w-full flex justify-center items-center my-4 text-center">
-                <ButtonComponent buttonText="SUBMIT"/>
+                <ButtonComponent buttonText="Submit"/>
             </div>
         </form>
         
