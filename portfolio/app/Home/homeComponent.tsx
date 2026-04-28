@@ -6,7 +6,7 @@ import { Terminal } from "@/components/ui/terminal";
 export default function HomeComponent(){
     return(
         <>
-        <div id="HOME" className="mt-75 flex flex-col justify-center items-center gap-3 md:gap-7 w-screen">
+        <div id="HOME" className="mt-20 md:mt-75 flex flex-col justify-center items-center gap-3 md:gap-7 w-screen">
             <h1 className="font-syne font-black text-xl md:text-4xl scale-y-130 z-20 text-white/80 tracking-tight">
             MAYANK UPPAL
             </h1>

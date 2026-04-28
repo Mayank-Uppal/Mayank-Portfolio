@@ -6,7 +6,7 @@ const Images2=["render.svg","html5.svg","css.svg","tailwind.svg","javascript.svg
 export default function SkillCarousel(){
     return(
         <>
-        <div className="max-w-6xl mx-auto flex flex-col justify-center gap-4 items-center text-center mt-63 mb-20">
+        <div className="max-w-6xl mx-auto flex flex-col justify-center gap-4 items-center text-center md:my-20">
                <h1 className="mb-4  scale-y-135 font-extrabold font-syne text-heading text-2xl px-4 md:px-0 md:text-5xl">Import <span className="text-rose-500  font-syne font-extrabold">{`{ Skills }`} </span>from <span className="text-rose-500 font-syne font-extrabold">"Mayank"</span></h1>
                <p className="md:mb-12 max-w-3xl font-normal font-outfit text-white/80 text-body px-4 md:px-0 text-xl md:text-2xl">Languages, frameworks, and tools I've worked with and know well — covering everything from backend APIs to frontend interfaces.</p>
         
