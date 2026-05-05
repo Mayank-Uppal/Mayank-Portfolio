@@ -12,6 +12,10 @@ jobs:
   ci:
     name: Lint and Build
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./portfolio   # ← ADD THIS
+
 
     steps:
       - name: Checkout code
